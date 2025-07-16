@@ -9,22 +9,22 @@
         "owodmchannelid": "",
         "gamblechannelid": "",
         "autoquestchannelid": "",
-        "autostart": false,
+        "autostart": true,
 
         "commands": {
             "hunt": true,
             "battle": true,
-            "pray": false,
-            "curse": true,
+            "pray": true,
+            "curse": false,
             "huntbot": {
-                "enable": true,
+                "enable": 5.5,
                 "maxtime": 10,
                 "upgrade": false,
                 "upgradetype": "duration"
             },
             "gamble": {
-                "coinflip": true,
-                "slot": true
+                "coinflip": false,
+                "slot": false
             },
             "animals": false,
             "inventory": true,
@@ -72,21 +72,21 @@
         "discordrpc": false,
         "chatfeedback": true,
         "autophrases": true,
-        "autoresume": false,
-        "autojoingiveaways": false,
+        "autoresume": true,
+        "autojoingiveaways": true,
 
         "checklist": {
             "types": {
                 "daily": true,
-                "cookie": false,
-                "vote": false
+                "cookie": true,
+                "vote": true
             }
         },
 
         "inventory": {
             "use": {
                 "lootbox": true,
-                "fabledlootbox": false,
+                "fabledlootbox": true,
                 "crate": true,
                 "gems": true
             }
